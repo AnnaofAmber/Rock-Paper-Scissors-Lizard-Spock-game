@@ -1,0 +1,17 @@
+@import-normalize; /* bring in normalize.css styles */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Exo+2:wght@200;400;700;900&display=swap');
+body {
+  margin: 0;
+  font-family: 'Barlow Semi Condensed',  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(134.34% 134.34% at 50% 0%, #1F3757 0%, #131537 100%);
+}
+
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
