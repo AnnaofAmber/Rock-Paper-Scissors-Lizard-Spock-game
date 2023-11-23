@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Rock-Paper-Scissors-Lizard-Spock-game/static/css/main.1745ab1d.css",
-    "main.js": "/Rock-Paper-Scissors-Lizard-Spock-game/static/js/main.889240fd.js",
+    "main.js": "/Rock-Paper-Scissors-Lizard-Spock-game/static/js/main.90615dce.js",
     "index.html": "/Rock-Paper-Scissors-Lizard-Spock-game/index.html",
     "main.1745ab1d.css.map": "/Rock-Paper-Scissors-Lizard-Spock-game/static/css/main.1745ab1d.css.map",
-    "main.889240fd.js.map": "/Rock-Paper-Scissors-Lizard-Spock-game/static/js/main.889240fd.js.map"
+    "main.90615dce.js.map": "/Rock-Paper-Scissors-Lizard-Spock-game/static/js/main.90615dce.js.map"
   },
   "entrypoints": [
     "static/css/main.1745ab1d.css",
-    "static/js/main.889240fd.js"
+    "static/js/main.90615dce.js"
   ]
 }
