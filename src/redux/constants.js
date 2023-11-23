@@ -2,14 +2,18 @@ export const actions = Object.freeze({
     unselected: 'unselected',
     actionPaper: 'paper',
     actionScissors: 'scissors',
-    actionRock: 'rock'
+    actionRock: 'rock',
+    actionLizard: 'lizard',
+    actionSpock: 'spock'
   });
 
 export const pickedAction = Object.freeze({
     unselected: 'unselected',
     actionPaper: 'paper',
     actionScissors: 'scissors',
-    actionRock: 'rock'
+    actionRock: 'rock',
+    actionLizard: 'lizard',
+    actionSpock: 'spock'
   });
 
   export const status = Object.freeze({
