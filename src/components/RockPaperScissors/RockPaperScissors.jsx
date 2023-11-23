@@ -29,7 +29,7 @@ export const RockPaperScissors = () => {
       case 9 || 10:
         dispatch(setPickedAction('spock'));
         break;
-        default:
+      default:
         break;
     }
   };
@@ -41,6 +41,20 @@ export const RockPaperScissors = () => {
 
   return (
     <div className={scss.container}>
+<button
+        className={clsx(scss.action, [scss.scissors])}
+        selected={action === actions.scissors}
+        onClick={() => handleActionClick(actions.actionScissors)}
+      >
+        <div className={scss.eclipse}></div>
+      </button>
+      <button
+        className={clsx(scss.action, [scss.spock])}
+        selected={action === actions.spock}
+        onClick={() => handleActionClick(actions.actionSpock)}
+      >
+        <div className={scss.eclipse}></div>
+      </button>
       <button
         className={clsx(scss.action, [scss.paper])}
         selected={action === actions.paper}
@@ -49,9 +63,9 @@ export const RockPaperScissors = () => {
         <div className={scss.eclipse}></div>
       </button>
       <button
-        className={clsx(scss.action, [scss.scissors])}
-        selected={action === actions.scissors}
-        onClick={() => handleActionClick(actions.actionScissors)}
+        className={clsx(scss.action, [scss.lizard])}
+        selected={action === actions.lizard}
+        onClick={() => handleActionClick(actions.actionLizard)}
       >
         <div className={scss.eclipse}></div>
       </button>
@@ -62,16 +76,7 @@ export const RockPaperScissors = () => {
       >
         <div className={scss.eclipse}></div>
       </button>
-      <button
-        className={clsx(scss.action, [scss.lizard])}
-        selected={action === actions.lizard}
-        onClick={() => handleActionClick(actions.actionLizard)}
-      ><div className={scss.eclipse}></div></button>
-            <button
-        className={clsx(scss.action, [scss.spock])}
-        selected={action === actions.spock}
-        onClick={() => handleActionClick(actions.actionSpock)}
-      ><div className={scss.eclipse}></div></button>
+
     </div>
   );
 };
