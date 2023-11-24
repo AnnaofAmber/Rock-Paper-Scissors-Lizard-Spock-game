@@ -62,7 +62,8 @@ export const RockPaperScissors = () => {
       >
         <div className={scss.eclipse}></div>
       </button>
-      <button
+<div className={scss.wrapper}>
+<button
         className={clsx(scss.action, [scss.lizard])}
         selected={action === actions.lizard}
         onClick={() => handleActionClick(actions.actionLizard)}
@@ -76,6 +77,7 @@ export const RockPaperScissors = () => {
       >
         <div className={scss.eclipse}></div>
       </button>
+</div>
 
     </div>
   );
