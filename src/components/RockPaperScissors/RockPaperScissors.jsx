@@ -43,6 +43,7 @@ export const RockPaperScissors = () => {
       >
         <div className={scss.eclipse}></div>
       </button>
+      <div className={scss['wrapper-spock']}>
       <button
         className={clsx(scss.action, [scss.spock])}
         selected={action === actions.spock}
@@ -57,6 +58,7 @@ export const RockPaperScissors = () => {
       >
         <div className={scss.eclipse}></div>
       </button>
+      </div>
       <div className={scss.wrapper}>
         <button
           className={clsx(scss.action, [scss.lizard])}
