@@ -67,13 +67,11 @@ cursor: pointer;
 
   box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
 
- 
-  
-  
+
   @media only screen and (min-width: 768px) {
 
-width: 400px;
-height: 415px;
+    width: 400px;
+    height: 461px;
   }
 }
 
@@ -83,7 +81,7 @@ height: 415px;
     padding: 70px 31px 66px 33px;
     
     @media only screen and (min-width: 768px) {
-      padding: 32px 32px 32.5px 49px;
+      padding: 32px 32px 47px 32px;
       position: relative;
     }
 }
@@ -101,7 +99,7 @@ height: 415px;
 
   @media only screen and (min-width: 768px) {
     text-align: left;
-    margin-bottom: 48px;
+    margin-bottom: 20px;
   }
 }
 
@@ -115,6 +113,9 @@ margin-bottom: 90px;
 
   @media only screen and (min-width: 768px) {
   margin-bottom: 0;
+  width: 336px;
+height: 330px;
+  background-image: url(../../images/image-rules-bonus-desktop.svg);
   }
 }
 
