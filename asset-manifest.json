@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rock-Paper-Scissors-Lizard-Spock-game/static/css/main.12680bda.css",
-    "main.js": "/Rock-Paper-Scissors-Lizard-Spock-game/static/js/main.e9735342.js",
+    "main.css": "/Rock-Paper-Scissors-Lizard-Spock-game/static/css/main.72b7cc10.css",
+    "main.js": "/Rock-Paper-Scissors-Lizard-Spock-game/static/js/main.6fa12413.js",
     "static/media/image-rules-bonus.svg": "/Rock-Paper-Scissors-Lizard-Spock-game/static/media/image-rules-bonus.59aea332904757cc1c0d.svg",
     "static/media/icon-lizard-win.svg": "/Rock-Paper-Scissors-Lizard-Spock-game/static/media/icon-lizard-win.3410bc3ca2044a4fc352.svg",
     "static/media/icon-lizard.svg": "/Rock-Paper-Scissors-Lizard-Spock-game/static/media/icon-lizard.ed0e0abb6fd7b9da5641.svg",
@@ -15,11 +15,11 @@
     "static/media/icon-rock.svg": "/Rock-Paper-Scissors-Lizard-Spock-game/static/media/icon-rock.2854011bbfd5e66839d5.svg",
     "index.html": "/Rock-Paper-Scissors-Lizard-Spock-game/index.html",
     "static/media/bg-pentagon.svg": "/Rock-Paper-Scissors-Lizard-Spock-game/static/media/bg-pentagon.d7fad9b88f20e980035c.svg",
-    "main.12680bda.css.map": "/Rock-Paper-Scissors-Lizard-Spock-game/static/css/main.12680bda.css.map",
-    "main.e9735342.js.map": "/Rock-Paper-Scissors-Lizard-Spock-game/static/js/main.e9735342.js.map"
+    "main.72b7cc10.css.map": "/Rock-Paper-Scissors-Lizard-Spock-game/static/css/main.72b7cc10.css.map",
+    "main.6fa12413.js.map": "/Rock-Paper-Scissors-Lizard-Spock-game/static/js/main.6fa12413.js.map"
   },
   "entrypoints": [
-    "static/css/main.12680bda.css",
-    "static/js/main.e9735342.js"
+    "static/css/main.72b7cc10.css",
+    "static/js/main.6fa12413.js"
   ]
 }
