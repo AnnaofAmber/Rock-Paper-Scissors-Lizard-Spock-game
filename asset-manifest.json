@@ -1,19 +1,25 @@
 {
   "files": {
-    "main.css": "/Rock-Paper-Scissors-Lizard-Spock-game/static/css/main.eb46b4ad.css",
-    "main.js": "/Rock-Paper-Scissors-Lizard-Spock-game/static/js/main.3ea79300.js",
+    "main.css": "/Rock-Paper-Scissors-Lizard-Spock-game/static/css/main.12680bda.css",
+    "main.js": "/Rock-Paper-Scissors-Lizard-Spock-game/static/js/main.e9735342.js",
+    "static/media/image-rules-bonus.svg": "/Rock-Paper-Scissors-Lizard-Spock-game/static/media/image-rules-bonus.59aea332904757cc1c0d.svg",
+    "static/media/icon-lizard-win.svg": "/Rock-Paper-Scissors-Lizard-Spock-game/static/media/icon-lizard-win.3410bc3ca2044a4fc352.svg",
     "static/media/icon-lizard.svg": "/Rock-Paper-Scissors-Lizard-Spock-game/static/media/icon-lizard.ed0e0abb6fd7b9da5641.svg",
+    "static/media/icon-paper-win.svg": "/Rock-Paper-Scissors-Lizard-Spock-game/static/media/icon-paper-win.570b5ef6051eb8c291d6.svg",
     "static/media/icon-paper.svg": "/Rock-Paper-Scissors-Lizard-Spock-game/static/media/icon-paper.eaf9a8e8fe576f0d415d.svg",
+    "static/media/icon-spock-win.svg": "/Rock-Paper-Scissors-Lizard-Spock-game/static/media/icon-spock-win.5aa72cd508b3daff6084.svg",
+    "static/media/icon-scissors-win.svg": "/Rock-Paper-Scissors-Lizard-Spock-game/static/media/icon-scissors-win.e01dfca957a516f190b0.svg",
     "static/media/icon-scissors.svg": "/Rock-Paper-Scissors-Lizard-Spock-game/static/media/icon-scissors.8bc4c9d77491a064ff9d.svg",
+    "static/media/icon-rock-win.svg": "/Rock-Paper-Scissors-Lizard-Spock-game/static/media/icon-rock-win.5334722c198a03078f7f.svg",
     "static/media/icon-spock.svg": "/Rock-Paper-Scissors-Lizard-Spock-game/static/media/icon-spock.62a6c5191f43656e6a25.svg",
     "static/media/icon-rock.svg": "/Rock-Paper-Scissors-Lizard-Spock-game/static/media/icon-rock.2854011bbfd5e66839d5.svg",
     "index.html": "/Rock-Paper-Scissors-Lizard-Spock-game/index.html",
     "static/media/bg-pentagon.svg": "/Rock-Paper-Scissors-Lizard-Spock-game/static/media/bg-pentagon.d7fad9b88f20e980035c.svg",
-    "main.eb46b4ad.css.map": "/Rock-Paper-Scissors-Lizard-Spock-game/static/css/main.eb46b4ad.css.map",
-    "main.3ea79300.js.map": "/Rock-Paper-Scissors-Lizard-Spock-game/static/js/main.3ea79300.js.map"
+    "main.12680bda.css.map": "/Rock-Paper-Scissors-Lizard-Spock-game/static/css/main.12680bda.css.map",
+    "main.e9735342.js.map": "/Rock-Paper-Scissors-Lizard-Spock-game/static/js/main.e9735342.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb46b4ad.css",
-    "static/js/main.3ea79300.js"
+    "static/css/main.12680bda.css",
+    "static/js/main.e9735342.js"
   ]
 }
