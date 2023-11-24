@@ -12,25 +12,20 @@ export const RockPaperScissors = () => {
 
   const actionPick = () => {
     const random = Math.floor(Math.random() * 10);
-
-    switch (random) {
-      case 1 || 2:
-        dispatch(setPickedAction('paper'));
-        break;
-      case 3 || 4:
-        dispatch(setPickedAction('scissors'));
-        break;
-      case 5 || 6:
-        dispatch(setPickedAction('rock'));
-        break;
-      case 7 || 8:
-        dispatch(setPickedAction('lizard'));
-        break;
-      case 9 || 10:
-        dispatch(setPickedAction('spock'));
-        break;
-      default:
-        break;
+    if (random === 1 || random === 2) {
+      dispatch(setPickedAction('paper'))
+    }
+    else if(random === 3 || random === 4){
+      dispatch(setPickedAction('scissors'))
+    }
+    else if(random === 5 || random === 6){
+      dispatch(setPickedAction('rock'))
+    }
+    else if(random === 7 || random === 8){
+      dispatch(setPickedAction('lizard'))
+    }
+    else {
+      dispatch(setPickedAction('spock'))
     }
   };
 
@@ -41,7 +36,7 @@ export const RockPaperScissors = () => {
 
   return (
     <div className={scss.container}>
-<button
+      <button
         className={clsx(scss.action, [scss.scissors])}
         selected={action === actions.scissors}
         onClick={() => handleActionClick(actions.actionScissors)}
@@ -62,23 +57,22 @@ export const RockPaperScissors = () => {
       >
         <div className={scss.eclipse}></div>
       </button>
-<div className={scss.wrapper}>
-<button
-        className={clsx(scss.action, [scss.lizard])}
-        selected={action === actions.lizard}
-        onClick={() => handleActionClick(actions.actionLizard)}
-      >
-        <div className={scss.eclipse}></div>
-      </button>
-      <button
-        className={clsx(scss.action, [scss.rock])}
-        selected={action === actions.rock}
-        onClick={() => handleActionClick(actions.actionRock)}
-      >
-        <div className={scss.eclipse}></div>
-      </button>
-</div>
-
+      <div className={scss.wrapper}>
+        <button
+          className={clsx(scss.action, [scss.lizard])}
+          selected={action === actions.lizard}
+          onClick={() => handleActionClick(actions.actionLizard)}
+        >
+          <div className={scss.eclipse}></div>
+        </button>
+        <button
+          className={clsx(scss.action, [scss.rock])}
+          selected={action === actions.rock}
+          onClick={() => handleActionClick(actions.actionRock)}
+        >
+          <div className={scss.eclipse}></div>
+        </button>
+      </div>
     </div>
   );
 };

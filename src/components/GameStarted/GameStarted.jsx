@@ -18,7 +18,7 @@ export const GameStarted = () =>{
                 if(pickedAction === 'paper'){
                     dispatch(setStatus('draw'))
                 }
-                else if (pickedAction === 'scissors'){
+                else if (pickedAction === 'scissors' || pickedAction === 'lizard'){
                     dispatch(setStatus('lose'))
                 }
                 else{
@@ -27,7 +27,7 @@ export const GameStarted = () =>{
                 }
             }
             if(action === 'scissors'){
-                if(pickedAction === 'paper'){
+                if(pickedAction === 'paper' || pickedAction === 'lizard'){
                     dispatch(setStatus('win'))
                     dispatch(setScore(0.5))
                 }
@@ -39,10 +39,34 @@ export const GameStarted = () =>{
                 }
             }
             if(action === 'rock'){
-                if(pickedAction === 'paper'){
+                if(pickedAction === 'paper' || pickedAction === 'spock'){
                     dispatch(setStatus('lose'))
                 }
-                else if (pickedAction === 'scissors'){
+                else if (pickedAction === 'scissors' || pickedAction === 'lizard'){
+                    dispatch(setStatus('win'))
+                    dispatch(setScore(0.5))
+                }
+                else{
+                    dispatch(setStatus('draw'))
+                }
+            }
+            if(action === 'spock'){
+                if(pickedAction === 'lizard' || pickedAction === 'paper'){
+                    dispatch(setStatus('lose'))
+                }
+                else if (pickedAction === 'scissors' || pickedAction === 'rock'){
+                    dispatch(setStatus('win'))
+                    dispatch(setScore(0.5))
+                }
+                else{
+                    dispatch(setStatus('draw'))
+                }
+            }
+            if(action === 'lizard'){
+                if(pickedAction === 'rock' || pickedAction === 'scissors'){
+                    dispatch(setStatus('lose'))
+                }
+                else if (pickedAction === 'spock' || pickedAction === 'paper'){
                     dispatch(setStatus('win'))
                     dispatch(setScore(0.5))
                 }
@@ -61,7 +85,7 @@ export const GameStarted = () =>{
 <div className={scss['action-container']} >
     <div className={clsx(scss.status,{[scss.win]:status === 'win', [scss.lose]: status=== 'lose'})}></div>
 <div className={clsx(scss.action, {
-            [scss.paper]:action === 'paper', [scss.scissors]:action === 'scissors', [scss.rock]:action === 'rock',
+            [scss.paper]:action === 'paper', [scss.scissors]:action === 'scissors', [scss.rock]:action === 'rock', [scss.lizard]:action === 'lizard', [scss.spock]:action === 'spock',
         })}></div>
         <p className={scss.text}>YOU PICKED</p>
 </div>
@@ -69,7 +93,7 @@ export const GameStarted = () =>{
 <div className={scss['action-container']}>
 {pickedAction === 'unselected' && <div className={scss.unselected}></div>}
 <div className={clsx(scss.action, {
-            [scss.paper]:pickedAction === 'paper', [scss.scissors]:pickedAction === 'scissors', [scss.rock]:pickedAction === 'rock'
+            [scss.paper]:pickedAction === 'paper', [scss.scissors]:pickedAction === 'scissors', [scss.rock]:pickedAction === 'rock', [scss.lizard]:pickedAction === 'lizard', [scss.spock]:pickedAction === 'spock'
         })}></div>
     <p className={scss.text}>THE HOUSE PICKED</p>
 </div>
