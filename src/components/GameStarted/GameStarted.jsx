@@ -23,13 +23,13 @@ export const GameStarted = () =>{
                 }
                 else{
                     dispatch(setStatus('win'))
-                    dispatch(setScore(0.5))
+                    dispatch(setScore(1))
                 }
             }
             if(action === 'scissors'){
                 if(pickedAction === 'paper' || pickedAction === 'lizard'){
                     dispatch(setStatus('win'))
-                    dispatch(setScore(0.5))
+                    dispatch(setScore(1))
                 }
                 else if (pickedAction === 'scissors'){
                     dispatch(setStatus('draw'))
@@ -44,7 +44,7 @@ export const GameStarted = () =>{
                 }
                 else if (pickedAction === 'scissors' || pickedAction === 'lizard'){
                     dispatch(setStatus('win'))
-                    dispatch(setScore(0.5))
+                    dispatch(setScore(1))
                 }
                 else{
                     dispatch(setStatus('draw'))
@@ -56,7 +56,7 @@ export const GameStarted = () =>{
                 }
                 else if (pickedAction === 'scissors' || pickedAction === 'rock'){
                     dispatch(setStatus('win'))
-                    dispatch(setScore(0.5))
+                    dispatch(setScore(1))
                 }
                 else{
                     dispatch(setStatus('draw'))
@@ -68,7 +68,7 @@ export const GameStarted = () =>{
                 }
                 else if (pickedAction === 'spock' || pickedAction === 'paper'){
                     dispatch(setStatus('win'))
-                    dispatch(setScore(0.5))
+                    dispatch(setScore(1))
                 }
                 else{
                     dispatch(setStatus('draw'))
